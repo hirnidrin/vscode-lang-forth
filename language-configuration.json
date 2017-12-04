@@ -1,0 +1,14 @@
+{
+    "comments": {
+        "lineComment": "\\",
+        "blockComment": [ "0 [IF]", "[THEN]" ]
+    },
+    "brackets": [
+    ],
+    "autoClosingPairs": [
+        [ ": ", " ;" ],
+        [ "( ", "-- )" ]
+    ],
+    "surroundingPairs": [
+    ]
+}

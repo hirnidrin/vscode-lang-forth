@@ -1,0 +1,47 @@
+{
+    "name": "vscode-lang-forth",
+    "version": "0.0.1",
+    "publisher": "hirnidrin",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "license": "SEE LICENSE IN UNLICENSE.",
+    "displayName": "Forth syntax highlighting",
+    "icon": "./images/stack-push-four.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hirnidrin/vscode-lang-forth.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hirnidrin/vscode-lang-forth/issues"
+    },
+    "homepage": "https://github.com/hirnidrin/vscode-lang-forth",
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "forth",
+                "aliases": [
+                    "Forth"
+                ],
+                "extensions": [
+                    ".fs",
+                    ".4th",
+                    ".frt",
+                    ".fth",
+                    ".forth"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "forth",
+                "scopeName": "source.forth",
+                "path": "./syntaxes/forth.tmLanguage.json"
+            }
+        ]
+    }
+}
